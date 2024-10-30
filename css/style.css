@@ -1,0 +1,51 @@
+textarea#byr_summary, textarea#byr_learn, textarea#byr_final{
+	margin: 0;
+    height: 4em;
+    width: 98%;	
+}
+
+.book-wrapper {
+  width: 25%;
+  height: 375px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.book-clear{
+	clear: both;
+}
+
+.book-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+	transition: all 1s ease-in-out;
+}
+
+.book-image-hover{
+	opacity: .2;
+	transform: scale(1.2,1.2);
+}
+
+.book-title{
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	z-index: 10;
+	transform: translate(-50%, -50%);
+	transition: all 1s ease-in-out;
+	opacity: 0;
+}
+
+.book-title-hover{
+	opacity: 1;
+}
+
+.book-title h2{
+	color: black;
+}
+
